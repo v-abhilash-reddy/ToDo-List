@@ -18,7 +18,7 @@ if (port == null || port == "") {
 }
 
 const dbURL =
-  "mongodb+srv://abs1289:abs%401289@cluster0.fhm2u.mongodb.net/ToDoList?retryWrites=true&w=majority";
+  "mongodb+srv://******@cluster0.fhm2u.mongodb.net/ToDoList?retryWrites=true&w=majority";
 mongoose
   .connect(dbURL, { useNewUrlParser: true })
   .then(() => {
